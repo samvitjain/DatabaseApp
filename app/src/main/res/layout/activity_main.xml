@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="FirstName" />
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/text_"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="text" />
+        <EditText
+            android:id="@+id/sname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Surname"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/Marksofthestudent"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Marks" />
+        <EditText
+            android:id="@+id/marks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="marks"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/save_data"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Save" />
+        <Button
+            android:id="@+id/show_data"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="DISPLAY" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
